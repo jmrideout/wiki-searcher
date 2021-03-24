@@ -1,6 +1,6 @@
 ## Wiki-searcher
 
-The goal of this project is to create a small web-application that offers a somewhat different way to search for information on wikipedia. We'd love for you to use Python, but we are okay with you choosing a language you are most comfortable with as well. 
+The goal of this project is to create a small web-application that offers a somewhat different way to search for information on wikipedia. We'd love for you to use Python, if you aren't familiar with it - we'd encourage you to start by looking at the docs for [Flask](http://flask.palletsprojects.com/en/1.1.x/quickstart/#a-minimal-application) 
 
 
 We present the following scenario: 
