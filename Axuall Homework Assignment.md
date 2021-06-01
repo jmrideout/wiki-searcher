@@ -31,3 +31,4 @@ We present the following scenario:
 
 Since you don't actually possess the wildcard domain, you can test your app by using a cURL like utility while modifying the Host header to simulate each use case. 
 
+_Testing this may also require an update to your hosts file._ 
