@@ -15,7 +15,7 @@ def index(query):
     try:
         html = utils.get_wiki_page_html(query)
     except utils.RequestsResponseException as rre:
-        return rre + "Unable to process request."
+        return rre + " : Unable to process request."
     html = utils.remove_footer(html)
     links = utils.extract_links(html)
     return jsonify(utils.package_links(links))
