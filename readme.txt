@@ -28,9 +28,8 @@ Wikipedia's API disabled searching by title. Instead, I used their index.php.
 https://en.wikipedia.org/w/index.php?title=
 I noticed that the url for pages that redirected returned as the un-redirected url.
 To bypass this, I added the flag redirect=no to the query, then looked on the resulting page for the correct link.
-I had made functions to detect the type of page: single_page, category_page and redirect_page.
+I created functions to detect the type of page: single_page, category_page and redirect_page.
 However, by removing the footer and using regex, correct links could be found without needing special regex for each type of page.
 The ANCHOR_REGEX_PATTERN was refined multiple times to exclude links contained in the description after the correct link.
 (See https://en.wikipedia.org/wiki/Sleepy, Nikola "Sleepy" Andrews (born 1998), American Twitch streamer and former professional Overwatch player.
  This included undesired links for Twitch and Overwatch.)
-
